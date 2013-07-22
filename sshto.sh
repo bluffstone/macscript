@@ -124,5 +124,5 @@ fi
 echo "[DEBUG INFO] user: $user_name password:$password  server:$ssh_url set_paswd:$has_set_passwd"
 
 #调用自动登录ssh脚本登录
-./autossh.sh $user_name $password $ssh_url
+autossh.sh $user_name $password $ssh_url
 
